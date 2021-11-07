@@ -13,6 +13,19 @@ main {
     background-color: #d6ffd6f7;
 }
 
+.card {
+    margin-top: 2vh;
+}
+
+.card-header {
+    color: #bfbfbf
+  }
+
+.card-body {
+    background-color: #d6ffd6f7;
+    margin: 2px
+  }
+
 nav a {
     padding: 10px;
     color: white; 
@@ -24,7 +37,17 @@ nav a:hover {
     transition: .3s
 }
 
+#logout {
+    color: white;
+}
 
+#logout:hover {
+    color: white;
+    text-decoration: none;
+    font-size: 110%;
+    transition: .3s
+
+}
 
 a {
   text-decoration: none;
@@ -52,12 +75,20 @@ button:hover {
 }
 ol {
     list-style: none;
+    margin-top: 2vh;
   }
 
 .post-list {
   margin: 0;
   padding: 0;
 }
+#post-title {
+    width: 100%
+  }
+  
+  #post-body {
+    width: 100%
+  }
 
 textarea, input {
   padding: .5%;
@@ -168,7 +199,32 @@ main {
 .edit-link {
   display: block;
   margin: -1.5% 0 2% 0;
+  margin-top: 1vh;
+  color: #230909
 }
+
+.comment-form {
+    margin-top: 5%;
+  }
+  
+  .comment {
+    padding: 1%;
+    margin-bottom: 1%;
+  }
+  
+  .comment:nth-child(odd) {
+    background-color: #fff5eb;
+  }
+  
+  .comment .meta {
+    font-size: 90%;
+    margin-bottom: .5%;
+    opacity: .6;
+  }
+
+  .edit-post a {
+    color: #230909
+  }
 
 footer {
     border-top: 1px solid #ccc;
@@ -176,4 +232,8 @@ footer {
     justify-content: center;
     padding: 1%;
     font-size: 110%;
+    background-color: #d6ffd6f7;
+    font-weight: bold;
+    width: 100%;
+    text-align: center
   }
