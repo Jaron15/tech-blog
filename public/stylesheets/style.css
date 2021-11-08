@@ -225,6 +225,9 @@ main {
   .edit-post a {
     color: #230909
   }
+  .edit-post-form input {
+      width: 100%
+  }
 
 footer {
     border-top: 1px solid #ccc;
