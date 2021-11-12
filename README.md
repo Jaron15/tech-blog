@@ -28,4 +28,4 @@ Once you clone the repostiory, install the required packages with npm install. M
 # References
 Link to repository: https://github.com/Jaron15/tech-blog.git
 
-link to deployed application: 
+link to deployed application: https://stormy-sands-18757.herokuapp.com/
